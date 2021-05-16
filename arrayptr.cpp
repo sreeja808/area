@@ -3,15 +3,15 @@ using namespace std;
 
 int main()
 {
-   int data[5];
+   int arr[5];
    cout << "Enter elements: ";
 
    for(int i = 0; i < 5; ++i)
-      cin >> data[i];
+      cin >> arr[i];
 
    cout << "You entered: ";
    for(int i = 0; i < 5; ++i)
-      cout << endl << *(data + i);
+      cout << endl << *(arr + i);
 
    return 0;
 }
